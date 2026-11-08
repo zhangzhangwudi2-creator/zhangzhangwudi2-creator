@@ -1,28 +1,39 @@
-# 张凡｜AI 产品与内容运营
+# 👋 Hi, I'm 张凡 (Zhang Fan)
 
-数据科学与大数据技术本科在读，目标 AI 产品、AI 运营与大模型应用实习。关注如何把用户问题拆成可验证的 AI 工作流，而不只是调用一次模型 API。
+**2027 届本科 · 数据科学与大数据技术（班级学习委员） | 华为 ICT 大赛省级一等奖**  
+🎯 **核心方向**：`AI 应用全栈开发` · `大模型与 Agent 工程开发` · `Agent 平台测试开发与评测 (QA)`
 
-## 代表项目
+[![Portfolio Website](https://img.shields.io/badge/🌐_在线交互作品集-zhangzhangwudi2--creator.github.io-FFD43B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io)
+[![PDF Resume](https://img.shields.io/badge/📄_PDF_简历直达-Resume.pdf-FF922B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io/resume.pdf)
+[![Email](https://img.shields.io/badge/✉️_Email-2815042375%40qq.com-2B8A3E?style=for-the-badge&labelColor=2C221E)](mailto:2815042375@qq.com)
 
-### [AI 求职助手](https://github.com/zhangzhangwudi2-creator/aiqiuzhizhe)
+---
 
-简历与 JD 匹配分析工具，支持网页截图 OCR、结构化匹配报告、简历优化、配额保护与自动化测试。
+### ⚡ 核心工程量化指标 (Engineering Telemetry)
 
-- 在线体验：https://aiqiuzhizhe-production.up.railway.app
-- 技术：FastAPI、DeepSeek、OCR、结构化输出、Railway
+| 核心维度 | 量化指标 | 工程实现摘要 |
+| :--- | :---: | :--- |
+| **数学建模与回归** | **`R² > 0.96`** | 基于 Trust Region Reflective 算法求解 Bass 创新扩散常微分方程，远超静态线性均值流速 (`R² = 0.41`) |
+| **高可用模型网关** | **`10 Channels / 75 RPM`** | 多渠道权重轮询 + 429 自动熔断降级 + Cloudflare 边缘隧道 (`175~190ms` 优选握手) |
+| **桌面端极致瘦身** | **`13.7 MB / 50 MB RAM`** | Python Bottle + Edge WebView2 单文件免安装封装，搭配状态机 JSON 容错提取引擎（`0%` 解析崩溃率） |
+| **系统级自动化测试** | **`169 Passed (100%)`** | 覆盖 11 个子模块的 pytest 契约测试、Mock 回放与异常注入，搭配 Pydantic `Claims Gate` 规则级前置阻断 |
+| **金融大模型对齐评测** | **`25+ Rubrics / 200+ 公式`** | 使用 `openpyxl` 构建含 200+ 动态公式的 Ground Truth，制定正交原子级评测准则与 `±1%` 科学容差 |
 
-### [ContentOps Lab](https://github.com/zhangzhangwudi2-creator/contentops-lab)
+---
 
-面向小红书、抖音和微信的多阶段 AI 内容运营工作流，支持单节点调试、Prompt 配置复用和四维可解释质量评测。
+### 🏆 精选开源仓库 (Featured Repositories)
 
-- 评测维度：平台适配、内容结构、可读性、互动设计
-- 技术：React、TypeScript、Express、Gemini / DeepSeek
-- 项目不把模型生成的数字冒充真实投放数据
+| 仓库名称 | 定位与技术栈 | 核心亮点 |
+| :--- | :--- | :--- |
+| 📊 [**xianyu-lifecycle-llm**](https://github.com/zhangzhangwudi2-creator/xianyu-lifecycle-llm) | **本科毕设 · 算法与全栈系统**<br/>`Python` `SciPy NLS` `Streamlit` `Pydantic` | 融合 Bass 扩散动力学微分方程、CR4/HHI 寡占度计量与 DeepSeek/Qwen 结构化语义抽取的二手数字商品分析系统 |
+| 💼 [**aiqiuzhizhe**](https://github.com/zhangzhangwudi2-creator/aiqiuzhizhe) | **AI 求职助手桌面端系统**<br/>`Python` `WebView2` `PyInstaller` `SQLite` | `13.7MB` 单文件免安装桌面应用，内置基于状态机与栈平衡匹配的 JSON 容错解析引擎，彻底消除 Markdown 截断崩溃 |
+| 🎨 [**zhangzhangwudi2-creator.github.io**](https://github.com/zhangzhangwudi2-creator/zhangzhangwudi2-creator.github.io) | **个人交互式作品集网站**<br/>`React 18` `TypeScript` `Vite` `Tailwind` | Cozy Neo-Brutalism 极客贴纸风，支持「🧠 咕咕嘎嘎 / 👔 正经面试」双态切换、Bento 微型图表与系统架构流水线 |
+| 🛠️ [**contentops-lab**](https://github.com/zhangzhangwudi2-creator/contentops-lab) | **多平台 AI 内容工程工作台**<br/>`Workflow` `Prompt Engineering` `Eval` | 面向多平台内容生产、痛点挖掘、标题生成与自动化质量复盘的 AI 工程实验库 |
 
-## 当前能力
+---
 
-- AI 产品：需求拆解、功能流程、原型验证、Prompt 迭代
-- AI 运营：多平台内容适配、质量评测、工作流设计
-- 工程基础：Python、FastAPI、React、TypeScript、API、GitHub
+### 🛠️ 技术栈矩阵 (Tech Stack)
 
-正在寻找杭州 AI 产品 / AI 运营 / 大模型应用方向实习，可每周到岗 5 天及以上。
+- **AI 应用与全栈开发**：Python (`FastAPI` / `Bottle` / `Streamlit` / `Asyncio`), TypeScript / React, Edge WebView2, PyInstaller, SQLite (WAL)
+- **大模型与边缘基建**：OpenAI / Gemini / DeepSeek / Qwen SDK, New API 多渠道网关与 429 熔断, Cloudflare Tunnel (`cloudflared`) & Zero Trust
+- **Agent 评测与质量保障**：`pytest` 系统级自动化测试, Playwright (CDP 旁路监听), Pydantic v2 `Claims Gate`, `openpyxl` 动态公式 Ground Truth, 25+ Rubrics 设计
