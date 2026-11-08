@@ -3,9 +3,10 @@
 **2027 届本科 · 数据科学与大数据技术（班级学习委员） | 华为 ICT 大赛省级一等奖**  
 🎯 **核心方向**：`AI 应用全栈开发` · `大模型与 Agent 工程开发` · `Agent 平台测试开发与评测 (QA)`
 
-[![Portfolio Website](https://img.shields.io/badge/🌐_在线交互作品集-zhangzhangwudi2--creator.github.io-FFD43B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io)
-[![PDF Resume](https://img.shields.io/badge/📄_PDF_简历直达-Resume.pdf-FF922B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io/resume.pdf)
-[![Email](https://img.shields.io/badge/✉️_Email-2815042375%40qq.com-2B8A3E?style=for-the-badge&labelColor=2C221E)](mailto:2815042375@qq.com)
+[![Portfolio Cloudflare](https://img.shields.io/badge/⚡_作品集_(Cloudflare_加速)-steep--bird--36af-FFD43B?style=for-the-badge&labelColor=2C221E)](https://steep-bird-36af.wufi3456.workers.dev)
+[![Portfolio GitHub](https://img.shields.io/badge/🌐_作品集_(GitHub_Pages)-zhangzhangwudi2--creator.github.io-FF922B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io)
+[![Feishu Portfolio](https://img.shields.io/badge/📘_飞书云文档作品集-lcn240mx3b00.feishu.cn-2B8A3E?style=for-the-badge&labelColor=2C221E)](https://lcn240mx3b00.feishu.cn)
+[![PDF Resume](https://img.shields.io/badge/📄_PDF_简历直达-Resume.pdf-3B82F6?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io/resume.pdf)
 
 ---
 
