@@ -1,40 +1,58 @@
-# 👋 Hi, I'm 张凡 (Zhang Fan)
+# 张凡 (Zhang Fan)
 
-**2027 届本科 · 数据科学与大数据技术（班级学习委员） | 华为 ICT 大赛省级一等奖**  
-🎯 **核心方向**：`AI 应用全栈开发` · `大模型与 Agent 工程开发` · `Agent 平台测试开发与评测 (QA)`
+**长春科技学院 · 数据科学与大数据技术（2027 届统招本科）**  
+寻找 **AI 应用开发 / 测试开发** 实习机会（可赴苏州 / 杭州 / 上海，4–6 个月）
 
-[![Portfolio Cloudflare](https://img.shields.io/badge/⚡_作品集_(Cloudflare_加速)-steep--bird--36af-FFD43B?style=for-the-badge&labelColor=2C221E)](https://cv.zfzs.lol)
-[![Portfolio GitHub](https://img.shields.io/badge/🌐_作品集_(GitHub_Pages)-zhangzhangwudi2--creator.github.io-FF922B?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io)
-[![Feishu Portfolio](https://img.shields.io/badge/📘_飞书云文档作品集-lcn240mx3b00.feishu.cn-2B8A3E?style=for-the-badge&labelColor=2C221E)](https://lcn240mx3b00.feishu.cn)
-[![PDF Resume](https://img.shields.io/badge/📄_PDF_简历直达-Resume.pdf-3B82F6?style=for-the-badge&labelColor=2C221E)](https://zhangzhangwudi2-creator.github.io/resume.pdf)
+- 🌐 **在线作品集（含交互演示视频与实拍图）**：[cv.zfzs.lol](https://cv.zfzs.lol)
+- 📄 **一页简历 PDF**：[cv.zfzs.lol/resume.pdf](https://cv.zfzs.lol/resume.pdf)
+- 📘 **飞书文档版作品集**：[飞书知识库](https://lcn240mx3b00.feishu.cn/wiki/YT4gwJBZLiSVMIkdwq9cSb4tn5g)
+- ✉️ **联系邮箱**：`2815042375@qq.com`
 
----
-
-### ⚡ 核心工程量化指标 (Engineering Telemetry)
-
-| 核心维度 | 量化指标 | 工程实现摘要 |
-| :--- | :---: | :--- |
-| **数学建模与回归** | **`R² > 0.96`** | 基于 Trust Region Reflective 算法求解 Bass 创新扩散常微分方程，远超静态线性均值流速 (`R² = 0.41`) |
-| **高可用模型网关** | **`10 Channels / 75 RPM`** | 多渠道权重轮询 + 429 自动熔断降级 + Cloudflare 边缘隧道 (`175~190ms` 优选握手) |
-| **桌面端极致瘦身** | **`13.7 MB / 50 MB RAM`** | Python Bottle + Edge WebView2 单文件免安装封装，搭配状态机 JSON 容错提取引擎（`0%` 解析崩溃率） |
-| **系统级自动化测试** | **`169 Passed (100%)`** | 覆盖 11 个子模块的 pytest 契约测试、Mock 回放与异常注入，搭配 Pydantic `Claims Gate` 规则级前置阻断 |
-| **金融大模型对齐评测** | **`25+ Rubrics / 200+ 公式`** | 使用 `openpyxl` 构建含 200+ 动态公式的 Ground Truth，制定正交原子级评测准则与 `±1%` 科学容差 |
+> 这份主页只放本地有真实代码和运行实录的项目。做完的写实测结果，实习期做到一半或仍在开发中的直接说明边界。
 
 ---
 
-### 🏆 精选开源仓库 (Featured Repositories)
+## 代表项目一览
 
-| 仓库名称 | 定位与技术栈 | 核心亮点 |
-| :--- | :--- | :--- |
-| 📊 [**xianyu-lifecycle-llm**](https://github.com/zhangzhangwudi2-creator/xianyu-lifecycle-llm) | **本科毕设 · 算法与全栈系统**<br/>`Python` `SciPy NLS` `Streamlit` `Pydantic` | 融合 Bass 扩散动力学微分方程、CR4/HHI 寡占度计量与 DeepSeek/Qwen 结构化语义抽取的二手数字商品分析系统 |
-| 💼 [**aiqiuzhizhe**](https://github.com/zhangzhangwudi2-creator/aiqiuzhizhe) | **AI 求职助手桌面端系统**<br/>`Python` `WebView2` `PyInstaller` `SQLite` | `13.7MB` 单文件免安装桌面应用，内置基于状态机与栈平衡匹配的 JSON 容错解析引擎，彻底消除 Markdown 截断崩溃 |
-| 🎨 [**zhangzhangwudi2-creator.github.io**](https://github.com/zhangzhangwudi2-creator/zhangzhangwudi2-creator.github.io) | **个人交互式作品集网站**<br/>`React 18` `TypeScript` `Vite` `Tailwind` | Cozy Neo-Brutalism 极客贴纸风，支持「🧠 咕咕嘎嘎 / 👔 正经面试」双态切换、Bento 微型图表与系统架构流水线 |
-| 🛠️ [**contentops-lab**](https://github.com/zhangzhangwudi2-creator/contentops-lab) | **多平台 AI 内容工程工作台**<br/>`Workflow` `Prompt Engineering` `Eval` | 面向多平台内容生产、痛点挖掘、标题生成与自动化质量复盘的 AI 工程实验库 |
+| 项目 | 当前状态 | 核心技术 | 真实说明 |
+| :--- | :---: | :--- | :--- |
+| **闲鱼数字商品生命周期分析与选品系统**（毕设） | 核心已落地 | Python · Playwright · SQLite WAL · SciPy · Streamlit | 累计 2,329 商品 / 1,705 卖家 / 2,950 快照（40 件满 6 期真实面板）；Bass 数值差分与满 6 期熔断；独立运营库 7 模块含 10 反例测试全过（60 条人工金标补充中，答辩前暂私有） |
+| **[AI 求职助手 Web 版](https://github.com/zhangzhangwudi2-creator/aiqiuzhizhe)** | 已落地 | FastAPI · ReportLab · Tesseract.js · Pydantic · pytest | 简历诊断、定向改写与保真 PDF 导出；`fact_guard` 防删联系方式、最右可信 `X-Forwarded-For` 防绕过限流、无照 422 拦截，**63 项 pytest** 接入 CI 全绿 |
+| **水豚噜噜原生透明桌宠** | 日常可用 | PySide6 (DWM ARGB32) · Faster-Whisper · GPT-SoVITS · rembg | 去掉 pywebview 白边重写原生逐像素透明（~50MB 内存），10 套换装 + 9888→9880 零额外显存权重热切，146 项 pytest 用例集（含角色素材暂私有） |
+| **TikTok 电商视频工作台 & 公司官网原型**（实习） | 阶段交接 | FastAPI · Next.js · React · TS · DeepSeek / Wan API | 2026 暑期于杭州凯伦实习：设计两套公司官网原型并整理 205 项产品数据；搭建视频工作台并跑通 1 套 CapCut 样片交接包（TikTok 稳定爬取与自动剪辑离职前未完成，按保密要求不公开源码） |
+| **本地语音转发代理与服务控制面板** | 个人自用 | Node.js · PySide6 · GPT-SoVITS · SQLite | 6GB 显存下队列上限 6、跨端口显存冲突保护、16 条内存 LRU 缓存（命中 14ms）与桌面启停窗，配 76 项标准库黑盒脚本（不对外公开入口） |
+| **AI 小说转漫剧分镜工作台** | 开发中 | FastAPI · Pydantic · pyJianYingDraft · gflow-cli | 完成章节桥接、4~6s 分镜校验、顺序故障转移路由（回环关代理 + 日志脱敏）与 81 项 Mock 测试，尚未完成真账号连续出片 |
 
 ---
 
-### 🛠️ 技术栈矩阵 (Tech Stack)
+## 界面实拍预览
 
-- **AI 应用与全栈开发**：Python (`FastAPI` / `Bottle` / `Streamlit` / `Asyncio`), TypeScript / React, Edge WebView2, PyInstaller, SQLite (WAL)
-- **大模型与边缘基建**：OpenAI / Gemini / DeepSeek / Qwen SDK, New API 多渠道网关与 429 熔断, Cloudflare Tunnel (`cloudflared`) & Zero Trust
-- **Agent 评测与质量保障**：`pytest` 系统级自动化测试, Playwright (CDP 旁路监听), Pydantic v2 `Claims Gate`, `openpyxl` 动态公式 Ground Truth, 25+ Rubrics 设计
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://cv.zfzs.lol/media/thesis-dashboard.jpg" alt="毕设选品分析大屏" />
+      <br /><sub>01 · 本科毕设：Streamlit 选品与生命周期分析大屏</sub>
+    </td>
+    <td width="50%">
+      <img src="https://cv.zfzs.lol/media/job-helper-ui.jpg" alt="AI 求职助手 Web 界面" />
+      <br /><sub>02 · AI 求职助手：FastAPI 简历改写与 PDF 导出服务</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://cv.zfzs.lol/media/lulu-pet-poster.jpg" alt="水豚噜噜透明桌宠" />
+      <br /><sub>03 · 水豚噜噜：PySide6 ARGB32 原生透明桌宠</sub>
+    </td>
+    <td width="50%">
+      <img src="https://cv.zfzs.lol/media/kerren-site-design.jpg" alt="实习期编辑风官网原型" />
+      <br /><sub>04 · 暑期实习：编辑风 B2B 官网设计原型（已隐去公司名）</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 实习与竞赛
+
+- **杭州凯伦广告策划有限公司 · AI 应用开发实习生**（2026.07 – 2026.08 · 杭州）：参与公司官网原型设计、TikTok 电商视频工作流平台研发（阶段交接）及日常竞品/产品表格数据整理。
+- **竞赛荣誉**：华为 ICT 大赛省级一等奖；全国全地形机器人设计竞赛省级二等奖、省级三等奖。
